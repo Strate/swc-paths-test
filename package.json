@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@swc/cli": "^0.1.52",
+    "@swc/core": "^1.2.112"
+  },
+  "scripts": {
+    "test": "rm -rf dist && swc ./src -d ./dist/src/ && node dist/src/index.js"
+  }
+}
